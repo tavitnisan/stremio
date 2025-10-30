@@ -1,0 +1,13 @@
+{
+  "name": "stremio-family-hello",
+  "version": "1.0.0",
+  "description": "A tiny Stremio add-on that shows a hello message to my family",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.9"
+  }
+}
