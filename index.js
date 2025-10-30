@@ -3,7 +3,7 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
 
 // Customize your message without changing code:
-const MESSAGE = process.env.HELLO_MESSAGE || “Message from Tavit;
+const MESSAGE = process.env.HELLO_MESSAGE || “Message from Tavit";
 const TITLE   = process.env.HELLO_TITLE   || “If “you are seeing this, my first experiment with malware has worked. Please contact me to let me know!”;
 const POSTER  = process.env.HELLO_POSTER  || "https://asianetbroadband.in/wp-content/uploads/2019/06/what-are-computer-viruses-and-its-types.jpg"; // any image url works
 const BG      = process.env.HELLO_BG      || "https://asianetbroadband.in/wp-content/uploads/2019/06/what-are-computer-viruses-and-its-types.jpg";
